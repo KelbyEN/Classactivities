@@ -17,14 +17,16 @@ let satisfied = true;
 let favoriteThing = "poetry";
 
 // print the data type of "favoriteThing"
-console.log(typeOf poetry);
+console.log(typeof favoriteThing );
 
 // ! You heard a new song that became your favorite.
 // Reassign the variable "favoriteSong"
-favoriteTHing = "songs";
+favoriteThing = "song";
 // ! You no longer like the type of data stored in "favoriteThing"
 // Reassign "favoriteThing" to a different primitive data type and print its type
 favoriteThing = 23;
+console.log("I love" + favoriteThing + "it is my favorite!");
+
 
 // ! Happy Birthday!
 // Reassign "age" to a new value
@@ -36,7 +38,7 @@ age= 53;
 wage = 40;
 // ! Your raise changed your job satisfaction.
 // Assign "satisfied" to true
-let satisfied = "true";
+satisfied = true;
 
 // use "console.log()" and "+" to print a sentence that includes two variables
 console.log("my name is" + name + "i am" + age + ".");
